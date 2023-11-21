@@ -1,0 +1,98 @@
+.header
+{
+	background-color: #008338;
+	width: 100%;
+	height: 135px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+	.ccis, .comsoc
+	{
+		width: 100px;
+		height: 100px;
+		vertical-align: center;
+	}
+
+	.menu
+	{
+		width: 75px;
+		height: 75px;
+}
+
+.nav
+{
+	background-color: #23A65B;
+	height: 50px;
+}
+
+	.path
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+
+.body
+{
+	width: 100%;
+	height: 700px;
+}
+
+	.body_featured
+	{
+		width: 100%;
+		height: 300px;
+	
+	}
+	
+		.featuredimg
+		{
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	
+	.body_content
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+		.body_value
+		{
+			margin: auto;
+		}
+			.value_title
+			{
+				text-align: center;
+			}
+			
+			.value_para
+			{
+				text-align: center;
+			}
+		
+			.value_img
+			{
+				object-fit: cover;
+				width: 175px;
+				height: 175px;
+				justify-content: center;
+			}
+			
+			.value_button
+			{
+			}
+		
+		.body_gallery
+		{
+			
+		}
+
+.footer
+{
+	background-color: #008338;
+	width: 100%;
+	height: 150px;
+}
